@@ -1,0 +1,76 @@
+<html>  
+    <head>
+    <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+    <script src="https://js.api.here.com/v3/3.1/mapsjs-core.js"type="text/javascript" charset="utf-8"></script>
+    <script src="https://js.api.here.com/v3/3.1/mapsjs-service.js"type="text/javascript" charset="utf-8"></script>
+    <script src="https://js.api.here.com/v3/3.1/mapsjs-mapevents.js" type="text/javascript" charset="utf-8"></script>
+    <script src="https://js.api.here.com/v3/3.1/mapsjs-ui.js" type="text/javascript" charset="utf-8"></script>  
+    <link rel="stylesheet" type="text/css"href="https://js.api.here.com/v3/3.1/mapsjs-ui.css" />
+    <title>Result</title>
+    </head>
+      
+    <body>
+        <center>
+        <h1 style="color:black;">Output of the Object Detection Model</h1>
+        <img src="{{ url_for('static', filename='Output.png') }}" alt="User Image" width="400" height="400" border="5">
+        <br>
+        {% if final > 0.5 %}
+        <div>
+            <br>
+            <br>
+            <button type="button" onclick="showPosition();">Show My Position on Google Map</button>
+            <br>
+            <br>
+            <div id="embedMap" style="width: 400px; height: 300px;">
+                <!--Google map will be embedded here-->
+            </div>
+       
+            <script src="https://maps.google.com/maps/api/js?sensor=false"></script>
+            <script>
+            function showPosition() {
+                if(navigator.geolocation) {
+                    navigator.geolocation.getCurrentPosition(showMap, showError);
+                } else {
+                    alert("Sorry, your browser does not support HTML5 geolocation.");
+                }
+            }
+            
+            // Define callback function for successful attempt
+            function showMap(position) {
+                // Get location data
+                lat = position.coords.latitude;
+                long = position.coords.longitude;
+                var latlong = new google.maps.LatLng(lat, long);
+                
+                var myOptions = {
+                    center: latlong,
+                    zoom: 16,
+                    mapTypeControl: true,
+                    navigationControlOptions: {
+                        style:google.maps.NavigationControlStyle.SMALL
+                    }
+                }
+                
+                var map = new google.maps.Map(document.getElementById("embedMap"), myOptions);
+                var marker = new google.maps.Marker({ position:latlong, map:map, title:"You are here!" });
+            }
+            
+            // Define callback function for failed attempt
+            function showError(error) {
+                if(error.code == 1) {
+                    result.innerHTML = "You've decided not to share your position, but it's OK. We won't ask you again.";
+                } else if(error.code == 2) {
+                    result.innerHTML = "The network is down or the positioning service can't be reached.";
+                } else if(error.code == 3) {
+                    result.innerHTML = "The attempt timed out before it could get the location data.";
+                } else {
+                    result.innerHTML = "Geolocation failed due to unknown error.";
+                }
+            }
+            </script>
+        </div>
+        {% endif %}
+        </center>
+    </body>
+    </html>
+    
