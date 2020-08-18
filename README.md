@@ -35,7 +35,7 @@ This repository contains the project from the article "Pothole Detection with Ma
   ```
   <p align="center"> After running the above command you should get a screen that looks like this.
 
-  <img src="" height="200" >
+  <img src="https://user-images.githubusercontent.com/33536225/90520818-764fd780-e187-11ea-91c8-2e48ece8fce2.JPG" height="60" width="600">
 Copy the url right after Running on and paste it in your browser. 
 </p>
 
