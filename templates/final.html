@@ -9,10 +9,10 @@
     <title>Result</title>
     </head>
       
-    <body>
+    <body background="{{ url_for('static',     filename='back.jpg') }}">
         <center>
-        <h1 style="color:black;">Output of the Object Detection Model</h1>
-        <img src="{{ url_for('static', filename='Output.png') }}" alt="User Image" width="400" height="400" border="5">
+        <h1 style="color:white;">Output of the Object Detection Model</h1>
+        <img src="{{ url_for('static', filename='Output.png') }}" alt="User Image" width="400" height="400">
         <br>
         {% if final > 0.5 %}
         <div>
