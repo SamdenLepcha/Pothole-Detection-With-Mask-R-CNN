@@ -29,12 +29,24 @@ This repository contains the project from the article "Pothole Detection with Ma
   ```
    (pothole) C:\>pip install -r requirements.txt
   ```
+  
+  <p>Replace "YOURPATH" below and Set The Python Path Location to where you have place the tensorflow models folder. </p>
+  
+  ```
+  (pothole) C:\>set PYTHONPATH=YOURPATH\models;YOURPATH\models\research;D:\Projects\Pothole\MaskRCNN\models\research\slim
+  ```
+  
+  <p>Install the coco api library</p>
+  
+  ```
+   (pothole) C:\>  pip install git+https://github.com/philferriere/cocoapi.git#subdirectory=PythonAPI
+  ```
 
-<li> After all the package installations has been done navigate to the directory where the project has been downloaded and run "app.py":
+<li> After all the package installations has been done navigate to the directory where the project has been downloaded and run "app.py":</li>
   
   ```
   (FatigueDetection) C:\> python app.py
-  ```
+  ```'
   <p align="center"> After running the above command you should get a screen that looks like this.</p>
   <img src="https://user-images.githubusercontent.com/33536225/90520818-764fd780-e187-11ea-91c8-2e48ece8fce2.JPG" height="60" width="600">
   <br>
