@@ -1,4 +1,6 @@
 # Pothole-Detection-With-Mask-R-CNN
+[![TensorFlow 1.13](https://img.shields.io/badge/TensorFlow-1.13-FF6F00?logo=tensorflow)](https://github.com/tensorflow/tensorflow/releases/tag/v1.13.1)
+
 This repository contains the project from the article "Pothole Detection with Mask RCNN". You can find the article on my <a href="https://www.samdenlepcha.com/blogs/pothole-detection-mask-rcnn/">personal website</a> or <a href="#">medium</a>. You can find the detailed tutorial to this project in those blog articles. <br> <br>
 <b> Note: The tensorflow version used for this project is 1.13.1.</b>
 
