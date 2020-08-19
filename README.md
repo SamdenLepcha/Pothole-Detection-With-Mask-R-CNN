@@ -53,7 +53,7 @@ This repository contains the project from the article "Pothole Detection with Ma
    <li> After running the above command you should get a screen that looks like this.</li>
    <img src="https://user-images.githubusercontent.com/33536225/90520818-764fd780-e187-11ea-91c8-2e48ece8fce2.JPG" height="60" width="600">
    <br>
-   <li>Copy the url right after Running on and paste it in your browser. After selecting an image you should get this output shared below.</li> <br
+   <li>Copy the url right after Running on and paste it in your browser. After selecting an image you should get this output shared below.</li> <br>
    <img src="https://user-images.githubusercontent.com/33536225/90521571-50770280-e188-11ea-8b83-8296cf33e6ad.png">
    <li>Final Result Ouput:</li><br>
    <img src="https://user-images.githubusercontent.com/33536225/90600215-c83e3f00-e213-11ea-9c7b-2382f0944d53.JPG">
