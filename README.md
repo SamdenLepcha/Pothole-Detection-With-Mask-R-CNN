@@ -24,6 +24,7 @@ This repository contains the project from the article "Pothole Detection with Ma
   C:\> activate pothole
   (pothole) C:\>python -m pip install --upgrade pip
   ```
+  
   <p>All other requirements can be installed using requirements.txt</p>
   
   ```
@@ -42,11 +43,12 @@ This repository contains the project from the article "Pothole Detection with Ma
    (pothole) C:\>  pip install git+https://github.com/philferriere/cocoapi.git#subdirectory=PythonAPI
   ```
 
-<li> After all the package installations has been done navigate to the directory where the project has been downloaded and run "app.py":</li>
+  <li> After all the package installations has been done navigate to the directory where the project has been downloaded and run "app.py":</li>
   
   ```
   (FatigueDetection) C:\> python app.py
-  ```'
+  ```
+  
   <p align="center"> After running the above command you should get a screen that looks like this.</p>
   <img src="https://user-images.githubusercontent.com/33536225/90520818-764fd780-e187-11ea-91c8-2e48ece8fce2.JPG" height="60" width="600">
   <br>
