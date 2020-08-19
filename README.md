@@ -1,4 +1,6 @@
 # Pothole-Detection-With-Mask-R-CNN
+[![TensorFlow 1.13](https://img.shields.io/badge/TensorFlow-1.13-FF6F00?logo=tensorflow)](https://github.com/tensorflow/tensorflow/releases/tag/v1.13.1)
+
 This repository contains the project from the article "Pothole Detection with Mask RCNN". You can find the article on my <a href="https://www.samdenlepcha.com/blogs/pothole-detection-mask-rcnn/">personal website</a> or <a href="#">medium</a>. You can find the detailed tutorial to this project in those blog articles. <br> <br>
 <b> Note: The tensorflow version used for this project is 1.13.1.</b>
 
@@ -33,9 +35,13 @@ This repository contains the project from the article "Pothole Detection with Ma
   ```
   (FatigueDetection) C:\> python app.py
   ```
-  <p align="center"> After running the above command you should get a screen that looks like this.
+  <p align="center"> After running the above command you should get a screen that looks like this.</p>
+  <img src="https://user-images.githubusercontent.com/33536225/90520818-764fd780-e187-11ea-91c8-2e48ece8fce2.JPG" height="60" width="600">
+  <br>
+Copy the url right after Running on and paste it in your browser. <br><br>
+After selecting an image you should get this output shared below.<br><br>
+<img src="https://user-images.githubusercontent.com/33536225/90521571-50770280-e188-11ea-8b83-8296cf33e6ad.png">
 
-  <img src="" height="200" >
-Copy the url right after Running on and paste it in your browser. 
-</p>
+Final Result Ouput:
+<img src="https://user-images.githubusercontent.com/33536225/90600215-c83e3f00-e213-11ea-9c7b-2382f0944d53.JPG">
 
