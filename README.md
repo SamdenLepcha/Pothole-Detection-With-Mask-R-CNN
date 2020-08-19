@@ -11,45 +11,46 @@ This repository contains the project from the article "Pothole Detection with Ma
 <li>Download contents of <a href = "https://github.com/tensorflow/models/tree/r1.13.0">models</a> folder from Github and place all the contents in the folder. This is the tensorflow 1.13.1 api version</li>
 <li>Place all the contents inside models from this repository inside models/research/object_detection folder.</li>
 <li>Download the training configuration file from the Tensorflow Model Zoo. We are going to be using "mask_rcnn_inception_v2_coco" because of it's speed compared to the others. <a href="http://download.tensorflow.org/models/object_detection/mask_rcnn_inception_v2_coco_2018_01_28.tar.gz">Download</a> it and place it also models/research/object_detection folder</li>
-
-  <p> Open Anaconda Command Prompt and Setup a new environment</p>
+<li>Open Anaconda Command Prompt and Setup a new environment</li>
    
   ```
    C:\> conda create -n pothole pip python=3.6
   ```
-
-  <p>Activate the environment and upgrade pip </p>
+<li>Activate the environment and upgrade pip </li>
   
   ```
   C:\> activate pothole
   (pothole) C:\>python -m pip install --upgrade pip
   ```
-  
-  <p>All other requirements can be installed using requirements.txt</p>
+
+<li>All other requirements can be installed using requirements.txt</li>
   
   ```
    (pothole) C:\>pip install -r requirements.txt
   ```
-  
-  <p>Replace "YOURPATH" below and Set The Python Path Location to where you have place the tensorflow models folder. </p>
+ 
+<li>Replace "YOURPATH" below and Set The Python Path Location to where you have place the tensorflow models folder. </li>
   
   ```
   (pothole) C:\>set PYTHONPATH=YOURPATH\models;YOURPATH\models\research;D:\Projects\Pothole\MaskRCNN\models\research\slim
   ```
-  
-  <p>Install the coco api library</p>
+
+<li>Install the coco api library</li>
   
   ```
    (pothole) C:\>  pip install git+https://github.com/philferriere/cocoapi.git#subdirectory=PythonAPI
   ```
 
-  <li> After all the package installations has been done navigate to the directory where the project has been downloaded and run "app.py":</li>
+<li> After all the package installations has been done navigate to the directory where the project has been downloaded and run "app.py":</li>
   
   ```
   (FatigueDetection) C:\> python app.py
   ```
-  
-  <p align="center"> After running the above command you should get a screen that looks like this.</p>
+</ol>
+
+## Results
+
+<p align="center"> After running the above command you should get a screen that looks like this.</p>
   <img src="https://user-images.githubusercontent.com/33536225/90520818-764fd780-e187-11ea-91c8-2e48ece8fce2.JPG" height="60" width="600">
   <br>
 Copy the url right after Running on and paste it in your browser. <br><br>
