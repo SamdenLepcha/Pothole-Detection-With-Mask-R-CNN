@@ -40,3 +40,6 @@ Copy the url right after Running on and paste it in your browser. <br><br>
 After selecting an image you should get this output shared below.<br><br>
 <img src="https://user-images.githubusercontent.com/33536225/90521571-50770280-e188-11ea-8b83-8296cf33e6ad.png">
 
+Final Result Ouput:
+<img src="https://user-images.githubusercontent.com/33536225/90600215-c83e3f00-e213-11ea-9c7b-2382f0944d53.JPG">
+
