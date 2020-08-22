@@ -9,9 +9,11 @@ This repository contains the project from the article "Pothole Detection with Ma
 <ol>
 <li>Clone the entire repository into your local machine.</li>
 <li>Clone the contents of the tensorflow models folder from Github and place all the contents in the models folder. This is the tensorflow 1.13.1 api version</li>
+  
   ```
    C:\> git clone https://github.com/tensorflow/models.git
   ```
+  
 <li>Place all the contents inside models from this repository inside models/research/object_detection folder.</li>
 <li>Download the training configuration file from the Tensorflow Model Zoo. We are going to be using "mask_rcnn_inception_v2_coco" because of it's speed compared to the others. <a href="http://download.tensorflow.org/models/object_detection/mask_rcnn_inception_v2_coco_2018_01_28.tar.gz">Download</a> it and place the extracted file also inside models/research/object_detection folder</li>
 <li>Open Anaconda Command Prompt and Setup a new environment</li>
