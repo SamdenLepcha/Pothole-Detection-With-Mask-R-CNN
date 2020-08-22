@@ -17,7 +17,8 @@ decorator==4.4.2
 defusedxml==0.6.0
 entrypoints==0.3
 Flask==1.1.2
-gast==0.4.0
+gast==0.2.2
+google-pasta==0.2.0
 grpcio==1.31.0
 h5py==2.10.0
 idna==2.10
@@ -53,6 +54,7 @@ nbformat==5.0.7
 notebook==6.1.1
 numpy==1.19.1
 opencv-python==4.3.0.36
+opt-einsum==3.3.0
 packaging==20.4
 pandocfilters==1.4.2
 parso==0.7.1
@@ -78,9 +80,10 @@ QtPy==1.9.0
 requests==2.24.0
 Send2Trash==1.5.0
 six==1.14.0
-tensorboard==1.13.1
+tensorboard==1.15.0
 tensorflow==1.13.1
-tensorflow-estimator==1.13.0
+tensorflow-estimator==1.15.1
+tensorflow-gpu==1.15.2
 termcolor==1.1.0
 terminado==0.8.3
 testpath==0.4.4
