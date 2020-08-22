@@ -44,7 +44,7 @@ This repository contains the project from the article "Pothole Detection with Ma
 <li> After all the package installations has been done navigate to the directory where the project has been downloaded and run "app.py":</li>
   
   ```
-  (FatigueDetection) C:\> python app.py
+  (pothole) C:\> python app.py
   ```
 </ol>
 
