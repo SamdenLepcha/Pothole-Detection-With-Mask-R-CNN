@@ -8,7 +8,7 @@ This repository contains the project from the article "Pothole Detection with Ma
 
 <ol>
 <li>Clone the entire repository into your local machine.</li>
-<li>Clone the contents of the tensorflow models folder from Github and place all the contents in the models folder. This is the tensorflow 1.13.1 api version</li>
+<li>Clone the contents of the tensorflow models folder from Github and place all the contents in the models folder.</li>
   
   ```
    C:\> git clone https://github.com/tensorflow/models.git
