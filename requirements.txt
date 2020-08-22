@@ -81,7 +81,6 @@ requests==2.24.0
 Send2Trash==1.5.0
 six==1.14.0
 tensorboard==1.15.0
-tensorflow==1.13.1
 tensorflow-estimator==1.15.1
 tensorflow-gpu==1.15.2
 termcolor==1.1.0
