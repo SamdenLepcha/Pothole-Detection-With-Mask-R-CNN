@@ -2,13 +2,18 @@
 [![TensorFlow 1.13](https://img.shields.io/badge/TensorFlow-1.15-FF6F00?logo=tensorflow)](https://github.com/tensorflow/tensorflow/releases/tag/v1.15.0)
 
 This repository contains the project from the article "Pothole Detection with Mask RCNN". You can find the article on my <a href="https://www.samdenlepcha.com/blogs/pothole-detection-mask-rcnn/">personal website</a> or <a href="https://medium.com/@sam.lepcha98/pothole-detection-with-mask-rcnn-b78d18a89915">medium</a>. You can find the detailed tutorial to this project in those blog articles. <br> <br>
-<b> Note: The tensorflow version used for this project is 1.13.1.</b>
+<b> Note: The tensorflow version used for this project is 1.15.2.</b>
 
 ## Installation
 
 <ol>
 <li>Clone the entire repository into your local machine.</li>
-<li>Download contents of <a href = "https://github.com/tensorflow/models/tree/r1.13.0">models</a> folder from Github and place all the contents in the folder. This is the tensorflow 1.13.1 api version</li>
+<li>Clone the contents of the tensorflow models folder from Github and place all the contents in the models folder.</li>
+  
+  ```
+   C:\> git clone https://github.com/tensorflow/models.git
+  ```
+  
 <li>Place all the contents inside models from this repository inside models/research/object_detection folder.</li>
 <li>Download the training configuration file from the Tensorflow Model Zoo. We are going to be using "mask_rcnn_inception_v2_coco" because of it's speed compared to the others. <a href="http://download.tensorflow.org/models/object_detection/mask_rcnn_inception_v2_coco_2018_01_28.tar.gz">Download</a> it and place the extracted file also inside models/research/object_detection folder</li>
 <li>Open Anaconda Command Prompt and Setup a new environment</li>
